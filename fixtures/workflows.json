@@ -1,0 +1,18 @@
+[
+  {
+    "Id": 1,
+    "Slug": "REDFORD_MVP",
+    "Version": 2,
+    "Name": "Redford MVP Workflow",
+    "InitialStepId": 31,
+    "ErrorStepId": 1
+  },
+  {
+    "Id": 2,
+    "Slug": "HOFFMAN_MVP",
+    "Version": 3,
+    "Name": "Hoffman MVP Workflow",
+    "InitialStepId": 35,
+    "ErrorStepId": 2
+  }
+]

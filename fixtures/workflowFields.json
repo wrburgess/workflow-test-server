@@ -1,0 +1,17 @@
+[
+  {
+    "field_slug": "EMAIL_DELIVERED",
+    "required": false,
+    "field_type_slug": "BOOLEAN"
+  },
+  {
+    "field_slug": "EMAIL_OPENED",
+    "required": true,
+    "field_type_slug": "BOOLEAN"
+  },
+  {
+    "field_slug": "EMAIL_TRACKING_UUID",
+    "required": true,
+    "field_type_slug": "UUID"
+  }
+]
