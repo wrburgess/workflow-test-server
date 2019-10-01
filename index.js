@@ -3,13 +3,13 @@ const express = require('express');
 const cors = require('cors');
 const workflowsRouter = require('./routes/workflowsRouter');
 const PORT = process.env.PORT || 3000;
-// var corsOptions = {
-//   origin: 'http://localhost:1234',
-//   optionsSuccessStatus: 200
-// };
+var corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200
+};
 
 let app = express();
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 app.use(workflowsRouter);
 
 let server = http.createServer(app);
